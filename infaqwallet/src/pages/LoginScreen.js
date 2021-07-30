@@ -13,7 +13,7 @@ const LoginScreen = ({ history }) => {
   }
 
   return (
-    <>
+    <div>
       <div className='hidden lg:block h-auto w-full'>
         <div className='bg-blue-700 h-full lg:flex lg:justify-center lg:align-middle lg:items-center'>
           <div className='container flex items-center mx-auto w-full h-full'>
@@ -200,7 +200,7 @@ const LoginScreen = ({ history }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

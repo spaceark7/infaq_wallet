@@ -3,9 +3,9 @@ import MainContent from '../components/mainContent'
 
 const HomeScreen = () => {
   return (
-    <>
+    <div>
       <MainContent />
-    </>
+    </div>
   )
 }
 

@@ -80,7 +80,7 @@ const MainContent = () => {
   ]
 
   return (
-    <>
+    <div>
       <div className='hidden lg:block h-full '>
         <div className=' w-full xl:bg-blue-800'>
           <div className='md:content xl:container xl:mx-auto'>
@@ -309,7 +309,7 @@ const MainContent = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -29,7 +29,7 @@ const NavBar = () => {
   }, [isOpen])
 
   return (
-    <>
+    <div>
       <header className='sticky top-0 w-full bg-blue-700 h-16 lg:h-32 lg:px-6 z-10 '>
         <div className='container mx-auto flex h-full'>
           <div className='relative items-center align-middle mr-auto ml-3.5 flex'>
@@ -132,7 +132,7 @@ const NavBar = () => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

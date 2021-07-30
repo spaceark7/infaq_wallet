@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
   return (
-    <>
+    <div>
       <div className='hidden lg:block w-full h-screen'>
         <div className='container mx-auto px-10 py-10'>
           <h2 className='text-2xl font-bold text-blue-700 md:text-4xl'>
@@ -88,7 +88,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
